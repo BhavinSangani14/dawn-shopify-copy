@@ -1,5 +1,5 @@
 class CartDrawer extends HTMLElement {
-  constructor() {
+  constructor() { 
     super();
 
     this.addEventListener('keyup', (evt) => evt.code === 'Escape' && this.close());
